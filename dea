@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto Hacker - WhatsApp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: black;
+      color: lime;
+      font-family: monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      text-shadow: 0 0 10px lime;
+    }
+
+    a {
+      color: lime;
+      text-decoration: none;
+      border: 2px solid lime;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      margin-top: 20px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    a:hover {
+      background-color: lime;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <h1>📟 Contacto Hacker</h1>
+  <p>Haz clic para hablar conmigo por WhatsApp:</p>
+  <a href="https://wa.me/51937447892" target="_blank">Ir a WhatsApp</a>
+</body>
+</html>
